@@ -1,0 +1,95 @@
+/* general settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    margin: 0 19px;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    transform: rotate(-30deg) skew(30deg);
+    background: #ccc;
+}
+
+ul li span {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    font-size: 25px !important;
+    color: #fff;
+}
+
+/* layers from top to down */
+
+ul li:hover span {
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+ul li:hover span:nth-child(5) {
+    transform: translate(40px, -40px);
+}
+
+ul li:hover span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+
+ul li:hover span:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+
+ul li:hover span:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+
+ul li:hover span:nth-child(1) {
+    transform: translate(0, 0);
+    opacity: .2;
+}
+
+/* colors */
+
+ul li:nth-child(1) span {
+    background: #3b5999;
+}
+
+ul li:nth-child(2) span {
+    background: #55acee;
+}
+
+ul li:nth-child(3) span {
+    background: #dd4b39;
+}
+
+ul li:nth-child(4) span {
+    background: #0077b5;
+}
+
+ul li:nth-child(5) span {
+    background: #e4405f;
+}
