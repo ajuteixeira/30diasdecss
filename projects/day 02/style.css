@@ -1,0 +1,38 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background-color: #333;
+ }
+
+ p {
+     font-family: 'Inconsolata', monospace;
+     letter-spacing: 5px;
+     text-align: center;
+     font-size: 25px;
+     color: #fff;
+ }
+
+ .container {
+     position: absolute;
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     border: .1px solid #fff;
+     box-shadow: 0 1.2px 0 #fff;
+     background: transparent;
+     animation: animate .8s linear infinite;
+ }
+
+ @keyframes animate {
+     to {
+         transform: rotate(360deg);
+     }
+ }
