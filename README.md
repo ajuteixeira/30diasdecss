@@ -10,4 +10,4 @@ Challenge by <a href="https://github.com/MilenaCarecho/30diasDeCSS"> Milena Care
 <img src="https://j.gifs.com/VAG2rO.gif" alt="Day 02" style="max-width:100%;">
 
 # Day 03 - Sliding and color-changing text
-<img src="https://i.ibb.co/pdfhNps/r8DNk6.gif" alt="Day 03" style="max-width:100%;">
+<img src="https://i.ibb.co/pdfhNps/r8DNk6.gif" alt="Day 03" width="100%">
