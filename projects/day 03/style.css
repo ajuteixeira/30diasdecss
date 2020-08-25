@@ -1,0 +1,54 @@
+/* general settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* main container */
+
+.container {
+    position: absolute;
+    height: 100vh;
+}
+
+/* side by side containers */
+
+.left {
+    width: 100%;
+    color: #aedabf;
+    background-color: #333;
+}
+
+.right {
+    width: 50%;
+    top: 0;
+    left: 0;
+    color: #333;
+    background-color: #aedabf;
+}
+
+/* sliding effect */
+
+.sliding {
+    position: absolute;
+    top: 50%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12em;
+    line-height: 220px;
+    white-space: nowrap;
+    animation: animate 15s linear infinite;
+}
+
+/* animation by Milena Carecho */
+
+@keyframes animate {
+    0% {
+        transform: translate(0, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
