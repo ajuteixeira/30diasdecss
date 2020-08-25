@@ -6,5 +6,8 @@ Challenge by <a href="https://github.com/MilenaCarecho/30diasDeCSS"> Milena Care
 # Day 01 - Layered social media icons
 <img src="https://j.gifs.com/MwvKm1.gif" alt="Day 01" style="max-width:100%;">
 
-# Day 02 - animated loader
+# Day 02 - Animated loader
 <img src="https://j.gifs.com/VAG2rO.gif" alt="Day 02" style="max-width:100%;">
+
+# Day 03 - Sliding and color-changing text
+<img src="https://j.gifs.com/ANZooO.gif" alt="Day 03" style="max-width:100%;">
