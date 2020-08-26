@@ -1,0 +1,65 @@
+/* general settings */
+
+:root {
+    --light-green: #aedabf;
+    --dark-grey: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inconsolata", monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--dark-grey);
+}
+
+/* button style */
+
+.btn {
+    position: relative;
+    width: 250px;
+    height: 65px;
+    font-size: 17px;
+    font-weight: 900;
+    color: var(--light-green);
+    cursor: pointer;
+    border: 2px solid var(--light-green);
+    background-color: transparent;
+}
+
+/* button animation settings */
+
+.btn::before, .btn::after, .btn:active, .btn:visited {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 6px;
+    background: var(--dark-grey);
+    color: var(--light-green);
+    transition: .4s linear;
+}
+
+.btn::before {
+    top: -4px;
+    left: 10%;
+}
+
+.btn::after {
+    bottom: -4px;
+    right: 10%;
+}
+
+.btn:hover::before {
+    left: 80%;
+}
+
+.btn:hover::after {
+    right: 80%;
+}
