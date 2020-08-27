@@ -13,4 +13,7 @@ Challenge by <a href="https://github.com/MilenaCarecho/30diasDeCSS"> Milena Care
 <img src="https://media.giphy.com/media/hWQyDAOGtyTH7ngAD7/giphy.gif" alt="Day 03" width="100%">
 
 # Day 04 - Animated button
-<img src="#" alt="Day 04" style="max-width:100%;">
+<img src="https://j.gifs.com/jZrNzP.gif" alt="Day 04" style="max-width:100%;">
+
+# Day 05 - Pulse effect
+<img src="https://j.gifs.com/NLwyMD.gif" alt="Day 05" style="max-width:100%;">
