@@ -17,3 +17,6 @@ Challenge by <a href="https://github.com/MilenaCarecho/30diasDeCSS"> Milena Care
 
 # Day 05 - Pulse effect
 <img src="https://j.gifs.com/NLwyMD.gif" alt="Day 05" style="max-width:100%;">
+
+# Day 06 - Lighting text
+<img src="https://j.gifs.com/p8A5vp.gif" alt="Day 06" style="max-width:100%;">
