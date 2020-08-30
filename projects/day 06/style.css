@@ -1,0 +1,70 @@
+/* general settings */
+
+:root {
+    --light-green: #aedabf;
+    --green: #a2f3c1;
+    --dark-grey: #333;
+    --medium-grey: #484848;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark-grey);
+}
+
+/* ul settings */
+
+ul {
+    display: flex;
+}
+
+ul li {
+    font-family: "inconsolata", monospace;
+    font-size: 120px;
+    letter-spacing: 25px;
+    opacity: 70%;
+    color: var(--light-green);
+    list-style: none;
+    animation: lighting 2s linear infinite;
+}
+
+/* lighting animation */
+
+@keyframes lighting {
+    0% {
+        text-shadow: none;
+    }
+    70% {
+        text-shadow: none;
+    }
+    100% {
+        opacity: 100%;
+        text-shadow: 0 0 7px var(--light-green), 0 0 15px var(--green);
+    }
+}
+
+ul li:nth-child(1) {
+    animation-delay: 0
+}
+
+ul li:nth-child(2) {
+    animation-delay: 0.3s
+}
+
+ul li:nth-child(3) {
+    animation-delay: 0.6s
+}
+
+ul li:nth-child(4) {
+    animation-delay: 0.9s
+}
