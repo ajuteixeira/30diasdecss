@@ -23,3 +23,6 @@ Challenge by <a href="https://github.com/MilenaCarecho/30diasDeCSS"> Milena Care
 
 # Day 07 - Animated preloader
 <img src="https://j.gifs.com/5QZPvx.gif" alt="Day 07" style="max-width:100%;">
+
+# Day 08 - Pulsating heart
+<img src="https://j.gifs.com/XLK4Do.gif" alt="Day 08" style="max-width:100%;">
