@@ -1,0 +1,90 @@
+/* general settings */
+
+:root {
+	--light-green: #aedabf;
+	--dark-grey: #333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--dark-grey);
+}
+
+/* pendulum settings */
+
+.pendulum {
+	display: flex;
+	border-top: 10px solid var(--light-green);
+}
+
+.pendulum span {
+	display: block;
+	position: relative;
+	margin: 0 23px;
+	width: 3px;
+	height: 200px;
+	background-color: var(--light-green);
+	transform-origin: top;
+}
+
+.pendulum span:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: var(--light-green);
+	transform: translateX(-50%);
+}
+
+.pendulum span:first-child {
+	animation: left-arm 2s ease-in infinite;
+}
+
+.pendulum span:last-child {
+	animation: right-arm 2s ease-in infinite 1s;
+}
+
+/* pendulum animation by Milena Carecho */
+
+@keyframes left-arm {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(40deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes right-arm {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-40deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
