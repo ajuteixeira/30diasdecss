@@ -1,0 +1,43 @@
+/* general settings */
+
+:root {
+    --light-green: #aedabf;
+    --dark-grey: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark-grey);
+}
+
+/* btn settings */
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 40px;
+    font-family: "inconsolata", monospace;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--light-green);
+    cursor: pointer;
+    border: 2px solid var(--light-green);
+    background-color: transparent;
+    transition: all 1.5s;
+}
+
+.btn:hover {
+    color: var(--dark-grey);
+    background-color: var(--light-green);
+}
