@@ -1,0 +1,46 @@
+/* general settings */
+
+:root {
+    --dark-grey: #333;
+    --light-green: #aedabf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark-grey);
+}
+
+/* text settings */
+
+h1 {
+    font-family: 'Inconsolata';
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: var(--light-green);
+    text-shadow: 0 1px 0 #efefef,
+                 0 2px 0 #efefef,
+                 0 3px 0 #efefef,
+                 0 4px 0 #efefef,
+                 0 30px 5px rgba(0,0,0,.1);
+    animation: float 3s linear infinite;
+    animation-direction: alternate;
+}
+
+/* effect settings */
+
+@keyframes float {
+    from {transform: rotate(8deg);}
+
+    to {transform: rotate(-8deg);}
+}
