@@ -1,7 +1,11 @@
-# 30diasdecss
+# 30diasdecss  #30daysCSS
 This is the #30diasdeCSS challenge to practice CSS3 and HTML5 for 30 days with 30 mini projects 💻
 
-Challenge by <a href="https://github.com/MilenaCarecho/30diasDeCSS"> Milena Carecho</a>
+Challenge by <a href="https://github.com/MilenaCarecho/30diasDeCSS">Milena Carecho</a>
+
+# Daily projects
+
+<li><a href="https://github.com/ajuteixeira/30diasdecss/tree/master/projects/day%2001">Day 01</a><li>
 
 # Day 01 - Layered social media icons
 <img src="https://j.gifs.com/MwvKm1.gif" alt="Day 01" style="max-width:100%;">
